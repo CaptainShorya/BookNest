@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Germania+One&family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&family=Zen+Tokyo+Zoo&display=swap');
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/*Nav-Bar*/
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    font-size: 2rem;
+    color: #fe424d;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/*Footer*/
+.f-info-links a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    position: relative;
+    left: 0.50rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/*Cards*/
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    /* object-fit: cover !important; */
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/*New Page*/
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    margin-right: 2rem;
+}
+
+/*Show Page*/
+.show-img{
+    height: 30vh !important;  
+}
+
+.button{
+    display: flex;
+    position: relative;
+    bottom: 0.75rem;
+}
