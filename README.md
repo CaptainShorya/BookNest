@@ -1,0 +1,2 @@
+BookNest is a full-stack project built using Node.js, Express, EJS, and MongoDB. In this application, users can browse and check out beautiful mansions, hotels, and villas for accommodation. The project is structured using the MVC architecture and includes user authentication and authorization.
+Images are stored online using Cloudinary, and data is stored in the cloud using MongoDB Atlas. Several npm packages are utilized in this project, such as 'flash' for flashing messages and 'method-override' for handling PUT and PATCH requests in our web app.
